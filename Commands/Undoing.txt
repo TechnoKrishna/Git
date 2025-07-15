@@ -1,0 +1,17 @@
+🧹 Undoing Changes
+
+👩‍🚀 Discard changes in a file
+
+git checkout -- <file>
+
+👩‍🚀 Revert a commit (undo it safely)
+
+git revert <commit-id>
+
+👩‍🚀 Move HEAD to previous commit but keep changes staged
+
+git reset --soft <commit-id>
+
+👩‍🚀 Discard everything and move to a specific commit (dangerous)
+
+git reset --hard <commit-id>

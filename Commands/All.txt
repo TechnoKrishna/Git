@@ -1,0 +1,123 @@
+🔧 Setup Commands
+
+🐭 Set your Git username
+
+git config --global user.name "TechnoKrishna"
+
+🐭 Set your Git email
+
+git config --global user.email "krishna.sonawane03@gmail.com"
+
+🐭 List all global config settings
+
+git config --global -l
+
+📁 Repository Commands
+
+🐭 Initialize a new Git repository
+
+git init
+
+🐭 Clone a repository from a remote URL
+
+git clone <url>
+
+🐭 Show the status of working directory and staging area
+
+git status
+
+🐭 Show commit history
+
+git log
+
+🐭 Show changes made that are not staged
+
+git diff
+
+💾 Staging and Committing
+
+🐭 Stage a specific file
+
+git add <filename>	
+
+🐭 Stage all files in the current directory
+
+git add .	
+
+🐭 Commit the staged changes with a message
+
+git commit -m "your message"	
+
+🐭 Unstage a file
+
+git reset <filename>	
+
+🐭 Undo all uncommitted changes (be careful!)
+
+git reset --hard	
+
+🌲 Branching
+
+👩‍🚀 List all branches
+
+git branch
+
+👩‍🚀 Create a new branch
+
+git branch <branch-name>
+
+👩‍🚀 Switch to a branch
+
+git checkout <branch-name>
+
+👩‍🚀 Create and switch to a new branch
+
+git checkout -b <branch-name>
+
+👩‍🚀 Merge a branch into the current branch
+
+git merge <branch-name>
+
+👩‍🚀 Delete a branch
+
+git branch -d <branch-name>
+
+🌐 Remote Repositories
+
+👩‍🚀 Show remote repository URLs
+
+git remote -v
+
+👩‍🚀 Add a new remote repository
+
+git remote add origin <url>
+
+👩‍🚀 Push changes to remote repository
+
+git push origin <branch>
+
+👩‍🚀 Fetch and merge changes from remote repository
+
+git pull
+
+👩‍🚀 Download objects from remote without merging
+
+git fetch
+
+🧹 Undoing Changes
+
+👩‍🚀 Discard changes in a file
+
+git checkout -- <file>
+
+👩‍🚀 Revert a commit (undo it safely)
+
+git revert <commit-id>
+
+👩‍🚀 Move HEAD to previous commit but keep changes staged
+
+git reset --soft <commit-id>
+
+👩‍🚀 Discard everything and move to a specific commit (dangerous)
+
+git reset --hard <commit-id>
