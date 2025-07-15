@@ -1,0 +1,13 @@
+🔧 Setup Commands
+
+🐭 Set your Git username
+
+git config --global user.name "TechnoKrishna"
+
+🐭 Set your Git email
+
+git config --global user.email "krishna.sonawane03@gmail.com"
+
+🐭 List all global config settings
+
+git config --global -l

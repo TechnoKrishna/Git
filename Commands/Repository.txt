@@ -1,0 +1,21 @@
+📁 Repository Commands
+
+🐭 Initialize a new Git repository
+
+git init
+
+🐭 Clone a repository from a remote URL
+
+git clone <url>
+
+🐭 Show the status of working directory and staging area
+
+git status
+
+🐭 Show commit history
+
+git log
+
+🐭 Show changes made that are not staged
+
+git diff

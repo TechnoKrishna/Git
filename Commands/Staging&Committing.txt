@@ -1,0 +1,21 @@
+💾 Staging and Committing
+
+🐭 Stage a specific file
+
+git add <filename>	
+
+🐭 Stage all files in the current directory
+
+git add .	
+
+🐭 Commit the staged changes with a message
+
+git commit -m "your message"	
+
+🐭 Unstage a file
+
+git reset <filename>	
+
+🐭 Undo all uncommitted changes (be careful!)
+
+git reset --hard	
