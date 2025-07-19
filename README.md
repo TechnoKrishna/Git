@@ -17,10 +17,8 @@ Backup	Code can be stored safely on GitHub or other remote servers
 
 🌍 Git vs GitHub
 
-Git	                                                    GitHub
-A local version control system	    A cloud-based platform to store Git repositories
-Works on your computer	                              Works online
-Does not require internet	                Requires internet to sync repositories
-git commands	                      GitHub is used to host and share your Git projects
+Git	: A local version control system, Works on your computer, Does not require internet, git commands.
+
+GitHub : A cloud-based platform to store Git repositories, Works online, Requires internet to sync repositories, GitHub is used to host and share your Git projects.
 
 Link :- https://shorturl.at/6v67K
